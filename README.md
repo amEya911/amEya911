@@ -2,9 +2,8 @@
 **amEya911/amEya911** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-# Hi there, I'm Ameya Kulkarni 👋
-
 <div align="center">
+  <h1>Hi there, I'm Ameya Kulkarni 👋</h1>
   <p><strong>Android Engineer & Product Builder</strong></p>
   <p><em>Systems that ship fast, stay minimal, and respect the user's attention.</em></p>
   <br/>
