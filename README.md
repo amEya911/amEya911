@@ -8,7 +8,12 @@
   <p><em>Systems that ship fast, stay minimal, and respect the user's attention.</em></p>
   <br/>
   
-  <a href="https://ameyak.me"><img src="https://img.shields.io/badge/Portfolio-ameyak.me%2Fportfolio-black?style=for-the-badge&logo=About.me" alt="Portfolio" /></a>
+<a href="https://ameyak.me">
+  <img
+    src="https://img.shields.io/badge/Portfolio-ameyak.me-black?style=for-the-badge&logo=About.me"
+    alt="Portfolio"
+  />
+</a>
   <a href="mailto:ameyakulkarni2023@gmail.com"><img src="https://img.shields.io/badge/Email-ameyakulkarni2023%40gmail.com-black?style=for-the-badge&logo=Gmail" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/ameya-kulkarni-/"><img src="https://img.shields.io/badge/LinkedIn-Ameya%20Kulkarni-blue?style=for-the-badge&logo=LinkedIn" alt="LinkedIn" /></a>
   
