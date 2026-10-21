@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="224" viewBox="0 0 960 224" role="img" aria-labelledby="title desc">
+  <title id="title">Ameya Kulkarni</title>
+  <desc id="desc">Android apps and developer tools. An illustration connects a document, its processing steps, and an organized collection.</desc>
+  <rect width="960" height="224" rx="8" fill="#111517"/>
+  <path d="M0 223.5H960" stroke="#3c4b52"/>
+  <rect x="36" y="38" width="32" height="4" fill="#f0b47e"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="36" y="112" fill="#f4f1e9" font-size="54" font-weight="700" letter-spacing="-1.6">Ameya Kulkarni</text>
+    <text x="38" y="157" fill="#c1c8cb" font-size="27">Android apps and developer tools.</text>
+  </g>
+  <g fill="none" stroke="#53636c" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M728 63H766L782 79V131H728Z"/>
+    <path d="M766 63V79H782M740 93H769M740 104H769M740 115H758"/>
+    <path d="M782 99H813V146H842"/>
+    <path d="M813 99H855V64H886"/>
+    <rect x="842" y="128" width="54" height="38" rx="3"/>
+    <path d="M842 138H896"/>
+    <rect x="871" y="48" width="28" height="28" rx="3"/>
+  </g>
+  <g fill="#f0b47e">
+    <circle cx="813" cy="99" r="4"/>
+    <rect x="851" y="147" width="12" height="3" rx="1.5"/>
+    <path d="M878 62L883 67L892 57" fill="none" stroke="#f0b47e" stroke-width="2"/>
+  </g>
+</svg>

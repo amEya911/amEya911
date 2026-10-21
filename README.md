@@ -1,64 +1,49 @@
-<!--
-**amEya911/amEya911** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+<img src="assets/profile-header.svg" alt="Ameya Kulkarni — Android apps and developer tools" width="100%">
 
-<div align="center">
-  <h1>Hi there, I'm Ameya Kulkarni 👋</h1>
-  <p><strong>Android Engineer & Product Builder</strong></p>
-  <p><em>Systems that ship fast, stay minimal, and respect the user's attention.</em></p>
-  <br/>
-  
-<a href="https://ameyak.me">
-  <img
-    src="https://img.shields.io/badge/Portfolio-ameyak.me-black?style=for-the-badge&logo=About.me"
-    alt="Portfolio"
-  />
-</a>
-  <a href="mailto:ameyakulkarni2023@gmail.com"><img src="https://img.shields.io/badge/Email-ameyakulkarni2023%40gmail.com-black?style=for-the-badge&logo=Gmail" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/ameya-kulkarni-/"><img src="https://img.shields.io/badge/LinkedIn-Ameya%20Kulkarni-blue?style=for-the-badge&logo=LinkedIn" alt="LinkedIn" /></a>
-  
-</div>
+[Portfolio](https://ameyak.me/) · [Résumé](https://ameyak.me/assets/Ameya_Kulkarni_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/ameya-kulkarni-/) · [Email](mailto:ameyakulkarni2023@gmail.com)
 
----
+I'm a **Master of Information student at the University of Toronto**, concentrating in Information Systems and Design. I build Android apps and developer tools, with a particular interest in system architecture: where state lives, how components communicate, and what happens when something fails.
 
-## 🚀 About Me
+## Currently building: ShowPapers
 
-I build software the way I think about products - with **structural conviction**, ruthless scope reduction, and a deep bias for shipping. I engineer across Native Android, TypeScript/Node.js, and AI Developer Tools, maintaining a core focus on the architecture beneath the interface and creating experiences that respect the user's attention.
+I'm co-developing **[ShowPapers](https://showpapers.app/)**, an Android app for scanning, organizing, and finding personal documents. It classifies scans into folders and lets users check extracted information against its source and correct it.
 
-- 🔭 I’m currently building **[Prompttrace](https://github.com/amEya911)** (Local-first LLM observability) and **[Orbit Hub](https://github.com/amEya911)** (Premium model quota dashboard).
-- 💼 Working as an **Android Engineer & Product Builder** focusing on Realtime Systems, LLM Tooling, and zero-to-one builds.
-- ⚙️ **Core Philosophy:** *Every extra feature is a decision point. Fewer decisions, less noise.*
-- 🎓 B.E. Electronics & CS from SIES GST, Nerul
+My work includes:
 
-## 🛠️ Tech Stack & Workflow
+- **App architecture:** Kotlin and Jetpack Compose, with ViewModels and repositories separating UI state, document processing, and storage.
+- **OCR and on-device AI:** SDK integration, model availability, and device eligibility handling.
+- **The `.showpapers` format:** A protocol and validation rules for portable document collections, with import/export, Files and share sheet support, and a review step before importing.
 
-### Engineering & Architecture
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat-square&logo=kotlin&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![Android SDK](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpack-compose&logoColor=white)
+**In development** · [Visit ShowPapers →](https://showpapers.app/)
 
-### Systems & Backend
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat-square&logo=firebase)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
+## Selected projects
 
----
+| Project | What I built | Engineering focus |
+| :--- | :--- | :--- |
+| **[Orbit Hub](https://github.com/amEya911/Orbit-Hub)** | An Antigravity sidebar for model quotas across accounts, with reset countdowns and data freshness indicators. | SQLite write-ahead log merging; schema-free Protocol Buffers decoding. |
+| **[LLMetrics](https://github.com/amEya911/llmetrics)** | A VS Code extension for token use, estimated API costs, and session diagnostics across supported LLM integrations. | Node.js network instrumentation; a TypeScript SQLite reader with WAL support; six anti-pattern detectors. |
+| **[NearChat](https://github.com/amEya911/NearChat)** | Offline group messaging between nearby Android devices over Bluetooth Classic. | RFCOMM handshake design; star relay topology; coroutine-scoped socket lifecycles. |
+| **[Chattodo](https://chattodo.co/)** | An Android open alpha that turns chat messages into trackable tasks with a double tap, built through a technical mentorship project. | Compose performance; MVVM; Firestore listeners, caching, and ownership checks. |
 
-## 🔥 Featured Systems
+Also built: **[Vanish](https://github.com/amEya911/BlinkChat)**, a live, temporary messaging project, and **[Two Cars](https://github.com/amEya911/TwoCars)**, an Android game with a custom Compose Canvas game loop.
 
-| Project | Thesis | Impact |
-| --- | --- | --- |
-| **[Prompttrace](https://github.com/amEya911/prompttrace)** | "Grammarly + Chrome DevTools for LLM prompts." | Local-first LLM observability tracking context bloat and cost without network calls. |
-| **[Orbit Hub](https://github.com/amEya911/orbit-hub)** | Quota monitoring needs atomic precision. | VS Code extension with custom SQLite WAL merging and schema-less Protobuf decoding. |
-| **[Chattodo](https://chattodo.co)** | "What if 'just chatting' exactly meant 'just working'?" | A shipped, live product simplifying task derivation to a single tap. |
-| **[Vanish](https://github.com/amEya911/BlinkChat)** | Digital privacy demands transient data trails. | Complete transient architecture routing face-to-face protocols digitally. |
-| **[NearChat](https://github.com/amEya911/NearChat)** | Comm shouldn't depend on infra, just proximity. | Zero-infrastructure offline peer-to-peer messaging via Bluetooth. |
-| **[Two Cars](https://github.com/amEya911/TwoCars)** | Custom engines > third-party C++ engines. | 60 FPS Kotlin bespoke game loop rendering natively with Jetpack Compose. |
+## Tools I work with
 
-<br/>
+| Area | Technologies |
+| :--- | :--- |
+| **Android** | Kotlin, Java, Jetpack Compose, Coroutines, ViewModels, MVVM / MVI |
+| **Developer tools** | TypeScript, JavaScript, Node.js, VS Code extension APIs |
+| **Data & integration** | SQL, SQLite, Firebase / Firestore, Protocol Buffers, Bluetooth RFCOMM, OCR and on-device AI SDKs |
 
-<div align="center">
-  <p><i>"When your system reacts instead of being asked, latency becomes an architectural choice, not a limitation."</i></p>
-</div>
+## Background
+
+- **University of Toronto** · Master of Information, Information Systems and Design · 2026–present.
+- **SIES Graduate School of Technology, Mumbai** · B.E. in Electronics and Computer Science · 2021–2025 · CGPA: 8.73/10.
+- **Edelweiss EAAA** · Business Transformation Intern · May–July 2026. Wrote operating procedures and a command centre proposal; supported vendor onboarding, UAT handoffs, and SAP stabilization.
+- **Technical mentorship with Nirbhay Pherwani** · October 2025–March 2026. Built Chattodo while working on Android architecture, performance, Firebase access rules, and accessibility.
+
+## How I approach a build
+
+I start with a practical problem, then work through the data flow, state ownership, and failure cases. I like making those decisions visible: timestamps that distinguish cached data from fresh values, an import preview before documents enter a library, or cleanup that follows a connection's lifecycle.
+
+Based in **Toronto, Canada**. Find project demos and more engineering detail at **[ameyak.me](https://ameyak.me/)**, or [get in touch](mailto:ameyakulkarni2023@gmail.com).
